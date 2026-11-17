@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1794880820000,
+    "timestamp": 1794881061000,
     "version": 20002,
     "name": "WM65 Launcher nubia 源",
     "icon": "repo-icon.png",
@@ -30,9 +30,9 @@
       "sourceCode": "https://github.com/nianniannao/WM65-Launcher-nubia",
       "summary": "WM65 桌面，主屏便签直连努比亚系统记事本",
       "webSite": "https://github.com/nianniannao/WM65-Launcher-nubia",
-      "added": 1794880651000,
+      "added": 1794880620000,
       "packageName": "com.wm65.launcher",
-      "lastUpdated": 1794880651000,
+      "lastUpdated": 1794880620000,
       "localized": {
         "zh-CN": {
           "icon": "icon_91mHRUg3PWN7HtCRJHHCo_8mxfFHwpmK87LjsY3YKjY=.png"
@@ -63,9 +63,9 @@
       "sourceCode": "https://github.com/nianniannao/WM65-Launcher-nubia",
       "summary": "以系统记事本白名单身份为 WM65 桌面提供笔记数据的桥接应用",
       "webSite": "https://github.com/nianniannao/WM65-Launcher-nubia",
-      "added": 1794880651000,
+      "added": 1794880620000,
       "packageName": "com.notefill.tester",
-      "lastUpdated": 1794880651000,
+      "lastUpdated": 1794880620000,
       "localized": {
         "zh-CN": {
           "icon": "icon_txuzEXmnMaJ-LqXtiY3tPPXPVbXkhhrwXjZRNv-huhs=.png"
@@ -85,7 +85,7 @@
   "packages": {
     "com.notefill.tester": [
       {
-        "added": 1794880651000,
+        "added": 1794880620000,
         "apkName": "com.notefill.tester_1.apk",
         "hash": "11766fa6374770af4731ed160eaa7f1a7c9d94d115a591c1c9b0d502edcb0c22",
         "hashType": "sha256",
@@ -111,7 +111,7 @@
     ],
     "com.wm65.launcher": [
       {
-        "added": 1794880651000,
+        "added": 1794880620000,
         "apkName": "com.wm65.launcher_62.apk",
         "hash": "ced6a4f5f3882233b42ae55b69d09a38262a0e72b745de7c149a20290ba22daa",
         "hashType": "sha256",

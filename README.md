@@ -6,7 +6,7 @@ F-Droid 仓库（自定义源），通过 GitHub Pages 提供索引与 APK。
 - 仓库地址：`https://nianniannao.github.io/fdroid/repo`
 - 目录页：https://nianniannao.github.io/fdroid/
 - 签名指纹（SHA-256）：
-  `B4:B3:E4:E9:0C:D6:EF:18:2D:6D:B6:D6:6E:EB:B8:7E:42:7C:E6:7F:7E:B4:8A:2D:1C:19:F8:C4:B7:56:63:5E`
+  `4D:E3:3B:2A:B5:DF:F8:A7:2A:A8:9C:4C:A5:F1:B6:69:DE:E9:43:69:70:24:53:5B:6B:34:12:2E:3F:A6:82:5A`
 
 ## 结构
 
