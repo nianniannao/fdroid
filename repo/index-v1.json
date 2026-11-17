@@ -1,0 +1,151 @@
+{
+  "repo": {
+    "timestamp": 1794880820000,
+    "version": 20002,
+    "name": "WM65 Launcher nubia 源",
+    "icon": "repo-icon.png",
+    "address": "https://nianniannao.github.io/fdroid/repo",
+    "description": "WM65 桌面 · 努比亚记事本版（自编译、自签名）。仅收录作者自行编译并真机验证的 WM65 Launcher 与记事本桥接应用，非官方 F-Droid 主源。"
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "antiFeatures": [
+        "UpstreamNonFree"
+      ],
+      "authorName": "WM65 Launcher",
+      "authorWebSite": "https://github.com/nianniannao/WM65-Launcher-nubia",
+      "categories": [
+        "System"
+      ],
+      "suggestedVersionName": "6.5",
+      "suggestedVersionCode": "62",
+      "description": "WM65 桌面（Windows Mobile 6.5 风格安卓桌面）的努比亚定制版，针对\n努比亚 Z50S Pro / Android 15 (API 35) 编译，已在真机验收。\n\n主要改动：\n* 主屏便签面板改为读取努比亚系统「记事本」真实数据（标题、正文、时间）\n* 记事本内新建/修改便签后返回桌面，面板自动重建并显示最新内容\n* 便签排序：置顶项恒定在最上方，其余按修改时间从新到旧\n* 6 页双向循环滑动（时钟页 ↔ 插件页），保留原 200ms 动画\n* 字体与日期字号优化，大时钟 88sp→72sp，日期 23sp→17sp\n\n注意：本 APK 使用自签名证书（CN=WM65 Launcher），与原始 WM65 签名不同，\n首次安装需先卸载已有的 com.wm65.launcher；配套 WM65 Note Bridge 提供笔记\n桥接，需一并安装且不可冻结/卸载。\n\n本仓库为作者自建分发源，非 F-Droid 官方主源；应用由第三方桌面改造而来，\n许可证状态未知，请自行评估是否安装。",
+      "issueTracker": "https://github.com/nianniannao/WM65-Launcher-nubia/issues",
+      "license": "Unknown",
+      "name": "WM65 Launcher · nubia",
+      "sourceCode": "https://github.com/nianniannao/WM65-Launcher-nubia",
+      "summary": "WM65 桌面，主屏便签直连努比亚系统记事本",
+      "webSite": "https://github.com/nianniannao/WM65-Launcher-nubia",
+      "added": 1794880651000,
+      "packageName": "com.wm65.launcher",
+      "lastUpdated": 1794880651000,
+      "localized": {
+        "zh-CN": {
+          "icon": "icon_91mHRUg3PWN7HtCRJHHCo_8mxfFHwpmK87LjsY3YKjY=.png"
+        }
+      },
+      "icon": "com.wm65.launcher.png",
+      "icons": {
+        "120": "com.wm65.launcher.png",
+        "160": "com.wm65.launcher.png",
+        "240": "com.wm65.launcher.png",
+        "320": "com.wm65.launcher.png",
+        "480": "com.wm65.launcher.png",
+        "640": "com.wm65.launcher.png"
+      }
+    },
+    {
+      "authorName": "WM65 Launcher",
+      "authorWebSite": "https://github.com/nianniannao/WM65-Launcher-nubia",
+      "categories": [
+        "Writing"
+      ],
+      "suggestedVersionName": "1.0",
+      "suggestedVersionCode": "1",
+      "description": "轻量的桥接应用，安装后以努比亚系统记事本的白名单身份读取记事本数据，\n并通过 ContentProvider 提供给 WM65 桌面，使主屏便签面板能显示真实的\n记事内容。\n\n开机自启；当桥进程被系统回收时，桌面会通过透明 Activity 前台唤醒它并重试\n读取。请保持安装且不要在系统里冻结或卸载，否则桌面便签面板会变空。\n\n本应用为配套组件，通常无需单独打开。",
+      "issueTracker": "https://github.com/nianniannao/WM65-Launcher-nubia/issues",
+      "license": "Unknown",
+      "name": "WM65 Note Bridge",
+      "sourceCode": "https://github.com/nianniannao/WM65-Launcher-nubia",
+      "summary": "以系统记事本白名单身份为 WM65 桌面提供笔记数据的桥接应用",
+      "webSite": "https://github.com/nianniannao/WM65-Launcher-nubia",
+      "added": 1794880651000,
+      "packageName": "com.notefill.tester",
+      "lastUpdated": 1794880651000,
+      "localized": {
+        "zh-CN": {
+          "icon": "icon_txuzEXmnMaJ-LqXtiY3tPPXPVbXkhhrwXjZRNv-huhs=.png"
+        }
+      },
+      "icon": "com.notefill.tester.png",
+      "icons": {
+        "120": "com.notefill.tester.png",
+        "160": "com.notefill.tester.png",
+        "240": "com.notefill.tester.png",
+        "320": "com.notefill.tester.png",
+        "480": "com.notefill.tester.png",
+        "640": "com.notefill.tester.png"
+      }
+    }
+  ],
+  "packages": {
+    "com.notefill.tester": [
+      {
+        "added": 1794880651000,
+        "apkName": "com.notefill.tester_1.apk",
+        "hash": "11766fa6374770af4731ed160eaa7f1a7c9d94d115a591c1c9b0d502edcb0c22",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "packageName": "com.notefill.tester",
+        "sig": "9922bba264e36ba2f65f8cbab47be199",
+        "signer": "d6a283bf00b0ac9d6e375e46ed83150c73a9114874fc018d27bcea7406423c69",
+        "size": 16779,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
+    "com.wm65.launcher": [
+      {
+        "added": 1794880651000,
+        "apkName": "com.wm65.launcher_62.apk",
+        "hash": "ced6a4f5f3882233b42ae55b69d09a38262a0e72b745de7c149a20290ba22daa",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "packageName": "com.wm65.launcher",
+        "sig": "9922bba264e36ba2f65f8cbab47be199",
+        "signer": "d6a283bf00b0ac9d6e375e46ed83150c73a9114874fc018d27bcea7406423c69",
+        "size": 124537,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.EXPAND_STATUS_BAR",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ]
+        ],
+        "versionCode": 62,
+        "versionName": "6.5"
+      }
+    ]
+  }
+}

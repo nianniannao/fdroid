@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WM65 Launcher nubia · F-Droid 源</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; padding:0 20px 56px; background:#0b1018; color:#e6eef7;
+         font:16px/1.7 -apple-system,"Segoe UI",Roboto,"Noto Sans CJK SC","PingFang SC",sans-serif; }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  header { padding: 44px 0 24px; }
+  h1 { font-size: 26px; margin: 0 0 8px; font-weight: 600; letter-spacing:.3px; }
+  .sub { color:#8fa6bd; font-size:14px; }
+  h2 { font-size: 18px; margin: 34px 0 12px; font-weight: 600; color:#cfe0f0;
+       border-left: 3px solid #3d7fbf; padding-left: 10px; }
+  .card { background:#121a26; border:1px solid #1d2837; border-radius:12px; padding:18px 20px; margin:14px 0; }
+  .finger { font-family: ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px; color:#9ecbf0;
+            word-break: break-all; background:#0d141d; border:1px solid #1b2634; border-radius:8px; padding:10px 12px; }
+  a { color:#6fb3ee; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  .badge { display:inline-block; font-size:12px; color:#8fa6bd; border:1px solid #24313f;
+           border-radius:999px; padding:1px 10px; margin-left:8px; vertical-align:2px; }
+  code { background:#0d141d; border:1px solid #1b2634; border-radius:6px; padding:1px 6px; font-size:13px; }
+  footer { margin-top: 40px; color:#6d829a; font-size:13px; border-top:1px solid #1b2634; padding-top:16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>WM65 Launcher nubia · F-Droid 源</h1>
+    <div class="sub">自建 F-Droid 仓库（非 f-droid.org 官方主源）· 仅分发作者自编译、真机验证的 APK</div>
+  </header>
+
+  <div class="card">
+    <h2 style="margin-top:0">仓库地址</h2>
+    <p><code>https://nianniannao.github.io/fdroid/repo</code></p>
+    <p class="sub" style="margin-bottom:0">把它添加到 F-Droid 客户端（设置 → 仓库 → 添加仓库），即可收到本源的更新。</p>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">签名指纹 <span class="badge">SHA-256</span></h2>
+    <div class="finger">B4:B3:E4:E9:0C:D6:EF:18:2D:6D:B6:D6:6E:EB:B8:7E:42:7C:E6:7F:7E:B4:8A:2D:1C:19:F8:C4:B7:56:63:5E</div>
+    <p class="sub" style="margin-bottom:0">添加仓库时客户端会要求确认该指纹；指纹不符请立即中止。</p>
+  </div>
+
+  <h2>添加步骤</h2>
+  <ul>
+    <li>打开 F-Droid → 设置 → 仓库（Repositories）→ 右上角 <b>+</b></li>
+    <li>URL 填上面的仓库地址，指纹填上面的 SHA-256</li>
+    <li>返回后刷新索引，即可在 F-Droid 中看到 <b>WM65 Launcher · nubia</b> 与 <b>WM65 Note Bridge</b></li>
+  </ul>
+
+  <h2>本仓库收录</h2>
+  <div class="card">
+    <p><b>WM65 Launcher · nubia</b> — <code>com.wm65.launcher</code> 6.5 (62)</p>
+    <p class="sub">WM65 桌面努比亚定制版：便签面板直连系统记事本、双向同步、6 页循环翻页。</p>
+    <p style="margin-bottom:0"><b>WM65 Note Bridge</b> — <code>com.notefill.tester</code> 1.0 (1)</p>
+    <p class="sub" style="margin-bottom:0">配套桥接应用，以系统记事本白名单身份提供笔记数据，需与桌面一并安装且不可冻结。</p>
+  </div>
+
+  <h2>重要说明</h2>
+  <ul>
+    <li>两个 APK 均为自签名证书（<code>CN=WM65 Launcher</code>），与原始 WM65 签名不同，<b>首次安装需先卸载已有的 <code>com.wm65.launcher</code></b>。</li>
+    <li>仅针对努比亚 Z50S Pro / Android 15 验证，其他机型不保证兼容。</li>
+    <li>应用由第三方桌面改造而来，许可证状态未知，本仓库仅为个人分发用途，请自行评估是否安装。</li>
+    <li>源码与说明：<a href="https://github.com/nianniannao/WM65-Launcher-nubia">github.com/nianniannao/WM65-Launcher-nubia</a></li>
+  </ul>
+
+  <footer>
+    索引由 fdroidserver 2.4.5 生成并签名 · 仓库索引页面 <a href="repo/index.html">repo/index.html</a>
+  </footer>
+</div>
+</body>
+</html>
